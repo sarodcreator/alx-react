@@ -1,1 +1,1 @@
-## 0x08. React Redux reducer+selector
+## 0x07. React Redux action creator+normalizr
