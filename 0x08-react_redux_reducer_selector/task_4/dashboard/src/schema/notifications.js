@@ -24,4 +24,11 @@ export default function getAllNotificationsByUser(userId) {
   return output;
 }
 
+const notificationSchema = new schema.Entity('notifications');
+
+const notificationsNormalizer = (data) => {
+  return normalize(data, [notificationSchema]);
+};
+
+export { notificationsNormalizer };
 export { normalized };
